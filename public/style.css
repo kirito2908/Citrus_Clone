@@ -16,6 +16,10 @@ html, body{
     text-align: center;
 }
 
+.banner:hover{
+    cursor: grab;
+}
+
 .imageDisc{
     width: 100%;
     height: 100%;
@@ -98,7 +102,7 @@ html, body{
     transition: 300ms;
 }
 
-.home, .mainAboutAudioPro span, .nameAndPosition h4{
+.home, .mainAboutAudioPro span, .nameAndPosition h4, .mainWorkTitle span{
     color: rgb(14, 208, 14);
 }
 
@@ -111,16 +115,22 @@ html, body{
 .mainAboutAudioPro{
     width: 100%;
     margin-top: 5rem;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+
+.AboutTitle{
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .mainAboutAudioPro h1{
+    width: fit-content;
     font-size: 40px;
     padding-bottom: 5px;
-    width: fit-content;
     border-bottom: 1px solid black;
     text-transform: uppercase;
 }
@@ -128,6 +138,8 @@ html, body{
 .anotherOne{
     display: flex;
     margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .AboutAudioLeft{
@@ -137,6 +149,7 @@ html, body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .hexagon{
@@ -195,6 +208,91 @@ html, body{
     font-size: 12px;
 }
 
-.banner2 img{
-    width: 100%;    
+.AboutAudioLeft button:hover{
+    background-color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.AboutAudioright{
+    width: 40%;
+}
+
+.AboutAudioright:hover{
+    cursor: grab;
+}
+
+.whatWeDo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("/assets/full-width-bg-about.jpeg") center repeat fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainWork{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainWorkTitle h1{
+    width: fit-content;
+    padding-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+}
+
+.ourWork{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ourWork p{
+    width: 48%;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(138, 136, 136);
+    line-height: 25px;
+    padding-bottom: 3rem;
+}
+
+.singleService{
+    width: 18%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceName h3{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.serviceDisc{
+    line-height: 25px;
+    margin-bottom: 5rem;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

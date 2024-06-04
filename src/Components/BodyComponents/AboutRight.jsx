@@ -1,32 +1,41 @@
-import React from 'react'
+import React from "react";
 import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 export const AboutRight = () => {
+  const options = {
+    loop: true,
+    margin:10,
+    autoplay: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
+        }
+    }
+}
 
-    const options = {
-        loop: true,
-        margin: 10,
-        nav: false,
-        // autoplay: true,
-        items: 1,
-      };
-
-    return (
-        <>
+  return (
+    <>
       <div className="banner2">
-        <OwlCarousel className="owl-theme" {...options}>
-          <div>
+        <OwlCarousel {...options}>
+          <div class="item">
             <img src="/assets/as1.webp" alt="1st" />
           </div>
-          <div>
+          <div class="item">
             <img src="/assets/as2.webp" alt="2nd" />
           </div>
-          <div>
+          <div class="item">
             <img src="/assets/as3.webp" alt="3rd" />
           </div>
         </OwlCarousel>
       </div>
     </>
-  )
-}
+  );
+};

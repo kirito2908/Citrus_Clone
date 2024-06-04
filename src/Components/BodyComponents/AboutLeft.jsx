@@ -18,10 +18,10 @@ export const AboutLeft = () => {
                 <p>Saleem naijar kaasram eerie can be disbursed in the wofl like of a fox that is her thing smaoasa lase lemedds laasd pamade eleifend sapien</p>
             </div>
             <div className="ceoAccounts">
-                <a href='#' className="twitter"><FaTwitter /></a >
-                <a href='#' className="facebook"><IoLogoFacebook /></a >
-                <a href='#' className="instagram"><IoLogoInstagram /></a >
-                <a href='#' className="dunno"><FaTumblr /></a >
+                <a href='/' className="twitter"><FaTwitter /></a >
+                <a href='/' className="facebook"><IoLogoFacebook /></a >
+                <a href='/' className="instagram"><IoLogoInstagram /></a >
+                <a href='/' className="dunno"><FaTumblr /></a >
             </div>
             <div className="readMore">
                 <button type='button'>Read More</button>
