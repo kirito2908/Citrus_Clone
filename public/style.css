@@ -74,28 +74,16 @@ html, body{
 .mainHeader{
     width: 100%;
     display: flex;
-    gap: 150px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding-top: 15px;
-    padding-left: 100px;
-    padding-bottom: 15px;
-    background-color: red;
-}
-
-.brand{
-    background-color: white;
-}
-
-.options{
-    width: 35%;
-    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px rgb(199, 196, 196);
 }
 
 .options li{
     list-style-type: none;
-    font-weight: 500;
-    /* padding: 5px 0px; */
+    font-weight: 400;
 }
 
 .options ul{ 
@@ -110,15 +98,103 @@ html, body{
     transition: 300ms;
 }
 
-.home{
+.home, .mainAboutAudioPro span, .nameAndPosition h4{
     color: rgb(14, 208, 14);
-    /* border-bottom: 5px; */
 }
 
 .icons{
-    padding-right: 150px;
-    /* width: 10%; */
+    gap: 20px;
     display: flex;
     font-size: 21px;
-    background-color: green;
+}
+
+.mainAboutAudioPro{
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainAboutAudioPro h1{
+    font-size: 40px;
+    padding-bottom: 5px;
+    width: fit-content;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.anotherOne{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.AboutAudioLeft{
+    margin: 5rem 5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hexagon{
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0, 92.5% 25%, 92.5% 75%, 50% 100%, 7.5% 75%, 7.5% 25%);
+    margin-bottom: 1rem;
+} 
+
+.hexagon img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nameAndPosition{
+    margin-bottom: 1rem;
+}
+
+.nameAndPosition h5{
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.ceoDiscription p{
+    width: 88%;
+    line-height: 25px;
+    font-size: 13px;
+    margin-bottom: 2rem;
+}
+
+.ceoAccounts {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.ceoAccounts a{
+    clip-path: polygon(50% 0, 92.5% 25%, 92.5% 75%, 50% 100%, 7.5% 75%, 7.5% 25%);
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(14, 208, 14);
+}
+
+.AboutAudioLeft button{
+    padding: 1rem 1.5rem;
+    background-color: rgb(28, 187, 28);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.banner2 img{
+    width: 100%;    
 }
