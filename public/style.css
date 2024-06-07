@@ -90,19 +90,24 @@ html, body{
     font-weight: 400;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(14, 208, 14);
+}
+
 .options ul{ 
     display: flex;
     gap: 50px;
     font-size: 14px;
 }
 
-.options li:hover{
+a:hover{
     cursor: pointer;
-    color: rgb(20, 241, 20);
     transition: 300ms;
+    color: rgb(20, 128, 20);
 }
 
-.home, .mainAboutAudioPro span, .nameAndPosition h4, .mainWorkTitle span{
+.mainAboutAudioPro span, .nameAndPosition h4, .mainWorkTitle span{
     color: rgb(14, 208, 14);
 }
 
