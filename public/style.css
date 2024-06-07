@@ -92,7 +92,7 @@ html, body{
 
 a{
     text-decoration: none;
-    color: rgb(14, 208, 14);
+    color: black;
 }
 
 .options ul{ 
@@ -104,7 +104,7 @@ a{
 a:hover{
     cursor: pointer;
     transition: 300ms;
-    color: rgb(20, 128, 20);
+    color: rgb(14, 208, 14);
 }
 
 .mainAboutAudioPro span, .nameAndPosition h4, .mainWorkTitle span{
@@ -300,4 +300,56 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.mainfooter{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footerTop{
+    padding: 4rem 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerLeft{
+    padding: 1rem 1rem;
+}
+
+.footerLeft Form{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeft Form Input, .footerLeft Form TextArea{
+    width: 500px;
+    border: 1px solid rgb(138, 136, 136);
+    color: white;
+}
+
+.footerLeft Form Button{
+    width: 500px;
+    background-color: rgb(14, 208, 14);
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerRight h4{
+    text-transform: uppercase;
+}
+
+.footerRight .bussinessHours p{
+    display: flex;
+}
+
+.footerRight p{
+    gap: 10px;
 }
