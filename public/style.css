@@ -107,7 +107,7 @@ a:hover{
     color: rgb(14, 208, 14);
 }
 
-.mainAboutAudioPro span, .nameAndPosition h4, .mainWorkTitle span{
+.mainAboutAudioPro span, .nameAndPosition h4, .mainWorkTitle span, .ourService span, .factsContent span{
     color: rgb(14, 208, 14);
 }
 
@@ -204,7 +204,7 @@ a:hover{
     color: rgb(14, 208, 14);
 }
 
-.AboutAudioLeft button{
+.AboutAudioLeft button, .redesignContent button{
     padding: 1rem 1.5rem;
     background-color: rgb(28, 187, 28);
     border: none;
@@ -231,7 +231,7 @@ a:hover{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: url("/assets/full-width-bg-about.jpeg") center repeat fixed;
+    background: url("/assets/full-width-bg-about.jpeg") center fixed;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -438,4 +438,106 @@ input, textarea{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+.service{
+    padding: 5rem 10rem;
+}
+
+.ourService{
+    text-align: center;
+    padding: 0 13rem;
+}
+
+.ourService p{
+    padding: 2rem 0;
+}
+
+.detailPart p, .ourService p{
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(138, 136, 136);
+}
+
+.ourService h1{
+    text-transform: uppercase;
+}
+
+.redesignContainer{
+    background: url("/assets/full-width-bg-about.jpeg");
+    padding: 7rem 30rem;
+    text-align: center;
+}
+
+.redesignContent p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(138, 136, 136);
+    padding: 1rem 0;
+}
+
+.factsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    color: white;
+    background: url("/assets/full-width-funfacts.webp") center;
+    background-attachment: fixed;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background-color: green !important;
+    color: white;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    font-size: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    gap: 10px;
+}
+
+button.owl-dot.active {
+    background: black !important;
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.factsContent h1{
+    width: fit-content;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+.factsContent p{
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.factsContent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.factsIcons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facts h5{
+    padding: 1rem 0;
 }
