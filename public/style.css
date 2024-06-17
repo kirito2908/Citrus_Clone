@@ -283,6 +283,15 @@ a:hover{
     text-transform: uppercase;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
+    color: rgb(14, 208, 14);
+}
+
+.singleService:hover{
+    .serviceName h3{
+        color: black;
+        transition: 500ms;
+    }
+    cursor: pointer;
 }
 
 .serviceDisc{
@@ -404,4 +413,29 @@ input, textarea{
 .paycards{
     display: flex;
     gap: 10px;
+}
+
+.mainServices{
+    display: flex;
+    padding: 2rem 5rem;
+}
+
+.rightServices .oneCard, .leftServices .oneCard{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+.rightServices .oneCard{
+    flex-direction: row-reverse;
+}
+
+.leftServices .oneCard{
+    text-align: end;
+}
+
+.detailPart{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
